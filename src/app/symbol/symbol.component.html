@@ -1,0 +1,23 @@
+<body><form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+
+<div>
+    <label>
+      <input type="text" placeholder="Your stock symbol here"  formControlName="symbol" (input)="onStockChange($event.target.value)">
+    </label>
+    </div>
+  
+    <div>
+    <input type="submit" value="Update Symbol" class="cta">
+  </div>
+  </form>
+</body>
+
+
+<p>
+  Enter the symbol for the stock you would like information on and then visit the other pages for pricing information.
+</p>
+<p>Make sure your symbol is valid if data is not displayed.</p>
+<p>Current stock: {{data.symbol}}</p>
+
+ 
+

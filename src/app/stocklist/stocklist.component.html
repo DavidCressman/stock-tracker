@@ -1,0 +1,9 @@
+<h1>{{data.symbol}} Price Log</h1>
+
+   
+<ul *ngIf="data.price">
+  <li *ngFor="let price of data.price">
+    <p>Date: {{price.date }}, Price: $ {{price.price }}</p>
+  </li>
+</ul>
+

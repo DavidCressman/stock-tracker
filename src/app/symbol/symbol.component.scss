@@ -1,0 +1,58 @@
+div {
+    display: inline-block;
+    padding: 1em;
+
+}
+label {
+    display: block;
+    
+    input {
+        display: block;
+        margin-bottom: 20px;
+        padding: .8em;
+        font-size: 1em;
+    }
+
+    .error {
+        margin-top: -20px;
+        background: yellow;
+        padding: .5em;
+        display: inline-block;
+        font-size: .9em;
+        margin-bottom: 20px;
+    }
+}
+
+.cta {
+    justify-self: center;
+    background: rgb(24, 128, 4);
+    border: none;
+    color: white;
+
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 1em;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+.results {
+    margin-top: 50px;
+
+    strong {
+        display: block;
+    }
+    span {
+        margin-bottom: 20px;
+        display: block;
+    }
+}
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+p{
+    text-align:center;
+}
